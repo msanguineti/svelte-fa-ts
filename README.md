@@ -26,7 +26,7 @@ So, I moved the code to TypeScript, dropped everything else (all the build tools
 
 Now the library works flawlessly when using `<script lang="ts">`.
 
-I am, of course, in debt to [@Cweili](https://github.com/Cweili) and its work on the original library. 🎉 👏
+I am, of course, in debt to 👏 [@Cweili](https://github.com/Cweili) 👏 and its work on the original library. 🎉 🎉 🎉
 
 ## Installation
 
