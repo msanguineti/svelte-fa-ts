@@ -4,7 +4,7 @@ import typescript from '@rollup/plugin-typescript'
 import svelte from 'rollup-plugin-svelte'
 import { terser } from 'rollup-plugin-terser'
 import sveltePreprocess from 'svelte-preprocess'
-import { browser, main, module, version , author} from './package.json'
+import { browser, main, module, version, author } from './package.json'
 import copy from 'rollup-plugin-copy'
 
 const external = ['svelte/internal']
@@ -41,13 +41,13 @@ export default [
         file: module,
         format: 'es',
         exports: 'auto',
-        banner
+        banner,
       },
       {
         file: main,
         format: 'cjs',
         exports: 'auto',
-        banner
+        banner,
       },
     ],
     external,

@@ -18,7 +18,7 @@ Tiny [FontAwesome 5][fontawesome] component for [Svelte][svelte] with [TypeScrip
 - FontAwesome duotone icons
 - TypeScript types
 
-## svelte-fa-ts *Vs.* svelte-fa
+## svelte-fa-ts _Vs._ svelte-fa
 
 **This library is derived from [svelte-fa][npm]** and can be used as a drop-in replacement for it. I did try to fix the original library but it was more work than to actually start anew (old [rollupjs][rollup] plugins, old deps, babel...)
 
@@ -73,15 +73,10 @@ npm install svelte-fa-ts -D
 - `size`: `string` values `xs`, `sm`, `lg` or `2x`, `3x`, `4x` ...
 - `color`: icon color, default `currentColor`
 
-
 ### Element properties
 
 ```html
-<Fa
-  id="css_id"
-  class="css_class"
-  style="{color: #000;}"
-/>
+<Fa id="css_id" class="css_class" style="{color: #000;}" />
 ```
 
 ## Duotone Icons
@@ -103,7 +98,6 @@ npm install svelte-fa-ts -D
   swapOpacity
 />
 ```
-
 
 ### Duotone Icons Theme
 
@@ -128,12 +122,10 @@ npm install svelte-fa-ts -D
 [sapper]: https://sapper.svelte.dev/
 [rollup]: http://rollupjs.org
 [ts]: https://www.typescriptlang.org/
-
 [badge-version]: https://badgen.net/npm/v/svelte-fa-ts
 [badge-downloads]: https://badgen.net/npm/dt/svelte-fa-ts
 [npm]: https://www.npmjs.com/package/svelte-fa-ts
 [badge-size]: https://badgen.net/bundlephobia/minzip/svelte-fa-ts
-
 [bundlephobia]: https://bundlephobia.com/result?p=svelte-fa-ts
 [badge-license]: https://badgen.net/npm/l/svelte-fa-ts
 [license]: https://github.com/msanguineti/svelte-fa-ts/blob/main/LICENSE
