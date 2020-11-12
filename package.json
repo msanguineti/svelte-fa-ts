@@ -1,6 +1,6 @@
 {
   "name": "svelte-fa-ts",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "Tiny FontAwesome 5 component for Svelte, with TypeScript types",
   "keywords": [
     "fontawesome",
@@ -54,5 +54,13 @@
   },
   "dependencies": {},
   "author": "Mirco Sanguineti",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msanguineti/svelte-fa-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/msanguineti/svelte-fa-ts/issues"
+  },
+  "homepage": "https://github.com/msanguineti/svelte-fa-ts#readme"
 }
